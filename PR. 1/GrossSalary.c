@@ -5,7 +5,7 @@ void main()
 	float baseSalary,HRA,DA,TA,totalSalary;
 	
 	
-	printf("Enter base Salary :");
+	printf("ENter base Salary :");
 	scanf("%f",&baseSalary);
 	
 	printf("Enter HRA% :");
@@ -25,3 +25,4 @@ void main()
 	printf("Total Salary : Rs. %.2f\n",totalSalary);
 	
 }
+
