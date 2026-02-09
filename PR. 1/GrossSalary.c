@@ -1,10 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	float baseSalary,HRA,DA,TA,totalSalary;
-	
-	
 	printf("ENter base Salary :");
 	scanf("%f",&baseSalary);
 	
@@ -22,7 +19,7 @@ void main()
 	float taAmount = (TA*baseSalary)/100;
 	
 	totalSalary = baseSalary + HRA + DA + TA;
-	printf("Total Salary : Rs. %.2f\n",totalSalary);
-	
+	printf("Total Salary : Rs. %.2f\n",totalSalary);	
 }
+
 
