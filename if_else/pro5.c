@@ -1,4 +1,4 @@
-#include<stdio.h>// library - standard input output hrader file,
+#include<stdio.h>// library - standard input output header file,
 // its provide built in functions eg. scanf and printf
 // ye library ko add karne se hame scanf and printf function use karane ko milta hai.
 
@@ -90,3 +90,4 @@ void main()// its a main function,its entry point of our code.
 		}
 	}	
 }
+
