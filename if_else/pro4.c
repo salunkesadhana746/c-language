@@ -3,28 +3,41 @@ void main()
 {
 	//4. WAP to Find min. from given 3 no. using nested if else.
 
-	int a,b,c;
-	printf("Enter a :");
-	scanf("%d",&a);
-	printf("Enter b :");
-	scanf("%d",&b);
-	printf("Enter c :");
-	scanf("%d",&c);
+	int a,b,c;// we have declared interger variable a,b and c.
 	
-	if(a<b)
+	printf("Enter a :");//we are printing a message Enter a : by using printf function.
+	scanf("%d",&a);//we are geting user input in variable a by using scanf function.
+	printf("Enter b :");// we are printing a message Enter b : by using printf function.
+	scanf("%d",&b);//we are geting user input in variable b by using scanf function.
+	printf("Enter c :");//we are printing a message Enter c : by using printf function.
+	scanf("%d",&c);//we are geting user input in variable c by using scanf function.
+	// a,b,c
+	if(a<b)//we are comparing a to b,is a less than b?
 	{
-		printf("a is min");
+		if(a<c)//we are comparing a to c,is a less than c?
+		{
+			//a
+			printf("a is min");//we are printing a message a is minimum.
+		}
+		else
+		{
+			//c
+			printf("c is min");//we are printing a message c is minimum.
+		}
 	 	
 	}
 	else
 	{
-		if(b<c)
+		//b,c
+		if(b<c)//we are comparing b to c,is b less than c?
 		{
-  		    printf("b is min");	
+			//b
+  		    printf("b is min");	//we are printing a message b is minimum.
 		}
 		else
 		{
-  		    printf("c is min");
+			//c
+  		    printf("c is min");//we are printing a message c is minimum.
 		}	
 	}
 }
