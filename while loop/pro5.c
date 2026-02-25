@@ -3,7 +3,7 @@ void main()
 {
 	//5. wap to print odd no. from n to 1 using while loop.
 	
-	// star = 1, end = n;
+	// star = n, end = 1;
 	
 	int n, i = 1;
 	
@@ -21,3 +21,4 @@ void main()
    
 	
 }
+
