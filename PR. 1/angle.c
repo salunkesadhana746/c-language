@@ -2,8 +2,8 @@
 
 void main()
 {
-	//3.Triangle Angle Finder
-	//write a program to find the third angle of a right triangle when two other anglr are given.
+	/*3.Triangle Angle Finder
+	write a program to find the third angle of a right triangle when two other anglr are given.*/
 	int angle1,angle2,angle3;
 	
 	printf("Enter first angle : ");
@@ -15,3 +15,4 @@ void main()
 	
 	printf("Third angle : %d",angle3);
 }
+
