@@ -2,13 +2,14 @@
 
 void main()
 {
- 	 //2. Gross Salary Calculator
- 	 /*Create a program that calculates the gross salary by adding percentages of HRA,DA and TA
-	  to the base salary as chosen by the user*/
-     //Ex. Base Salary: 100 RS, HRA=10%, DA=5%, TA=8%.
-   	 //Ans = 123 RS
+ 	 /* 2. Gross Salary Calculator
+ 	  Create a program that calculates the gross salary by adding percentages of HRA,DA and TA
+	  to the base salary as chosen by the user
+      Ex. Base Salary: 100 RS, HRA=10%, DA=5%, TA=8%.
+   	  Ans = 123 RS */
    	 
 	float base_salary;
+	
 	printf("Enter base Salary :");
 	scanf("%f",&base_salary);
 	
@@ -21,3 +22,4 @@ void main()
 	printf("Gross Salary : Rs. %.2f",gross_salary);
 	
 }
+
