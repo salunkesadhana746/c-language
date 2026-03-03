@@ -7,14 +7,16 @@ void main()
 			G H I J
 			K L M N O	*/
 			
-	char i='A', j='E', k=1;		//declared variable
+	char i,j, k='A';		//declared variable
 	
-	for(i=1; i<=5; i++) // i=5 5<=5 : true
+	for(i='A'; i<='E'; i++) // i='E' E<=E : true
 	{
-		for(j=1; j<=i; j++)		//j=5 5<=5 : true
+		for(j='A'; j<=i; j++)		//j=E E<=E: true
 		{
 			printf("%c ",k);//printing a message are using printf function.
+			k++;
 		}
 		printf("\n");//printing a message are using printf function.
 	}
 }
+
