@@ -7,13 +7,13 @@ void main()
 			A B C D
 			A B C D E	*/
 			
-	char i='A',j='E';	//declared variable
+	char i,j;	//declared variable
 	
-	for(i=1; i<=5; i++) // i=5 5<=5 : true
+	for(i='A'; i<='E'; i++) // i=E E<=E : true
 	{
-		for(j=1; j<=i; j++)		//j=5 5<=5 : true
+		for(j='A'; j<=i; j++)		//j=E E<=E : true
 		{
-			printf("%c ",'A' + j - 1);//printing a message are using printf function.
+			printf("%c ",j);//printing a message are using printf function.
 		}
 		printf("\n");//printing a message are using printf function.
 	}
